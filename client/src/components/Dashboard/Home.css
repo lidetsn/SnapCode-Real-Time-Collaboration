@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+    /*padding: 10px 30px 10px 30px;*/
+    background-color:whitesmoke;
+  
+  }
+
+.top-nav {
+    width:105%;
+    background-color:black;
+    height:80px;
+    margin-top:20px;
+    margin-left:-10px;
+    margin-bottom:30px;
+
+}
+
+.snap-logo{
+    padding-left:12px;
+    padding-top:7px;
+}
+
+.snap-logo img {
+    width:140px;
+}
+
+
+
+.save-status {
+    float:right;
+    margin-right:250px;
+    margin-top:-50px;
+    padding-bottom:20px;
+    color:green;
+
+}
+
+
+.save-button {
+    /* background-color:rgb(56, 56, 255); */
+    padding:10px;
+    width:50px;
+    text-align: center;
+    color:white;
+    font-weight: 600px;
+    font-size: 18px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    float:right;
+    margin-right:150px;
+    margin-top:-60px;
+    clear: both;
+}
+
+.save-button:hover {
+    cursor: pointer;
+    background-color:rgb(96, 96, 255);
+}
