@@ -67,6 +67,9 @@ class Login extends Component {
                 onChangePassword={this.onChangePassword}
                 onSubmit={this.onSubmit}
               />
+               <Link to="/register" className="linkToRegister">
+          Register
+        </Link>
           </div>
       );
   }
