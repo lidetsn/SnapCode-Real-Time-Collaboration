@@ -80,7 +80,10 @@ class DashboardHeader extends React.Component {
           <p className="save-status">{ saveStatusRender() }</p>
           <div onClick={this.handleSave} className="save-button">
             Save
-          </div>        
+          </div> 
+          <div  className="logout-button">
+            Log Out
+          </div>          
         </div>
 
         {/* <ReactQuill placeholder={'Start writing here... '} value={this.state.text} onChange={this.handleChange} /> */}

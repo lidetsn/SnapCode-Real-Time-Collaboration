@@ -39,17 +39,36 @@ html, body {
 .save-button {
     /* background-color:rgb(56, 56, 255); */
     padding:10px;
-    width:50px;
+    width:60px;
     text-align: center;
     color:white;
     font-weight: 600px;
-    font-size: 18px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    float:right;
+    margin-right:280px;
+    margin-top:-60px;
+    clear: both;
+}
+.logout-button{
+    padding:10px;
+    width:80px;
+    text-align: center;
+    color:white;
+    font-weight: 600px;
+    font-size: 15px;
     border: 1px solid #ccc;
     border-radius:3px;
     float:right;
     margin-right:150px;
     margin-top:-60px;
     clear: both;
+
+}
+.logout-button:hover {
+    cursor: pointer;
+    background-color:rgb(96, 96, 255);
 }
 
 .save-button:hover {
