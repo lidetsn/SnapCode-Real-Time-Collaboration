@@ -1,0 +1,22 @@
+#collaborate{
+    float:right;
+    margin-right:250px;
+    margin-top:20px;
+    padding-bottom:20px;
+    padding:10px;
+    width:150px;
+    /* text-align: center; */
+    color:white;
+    font-weight: 600px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+    border-radius:3px;
+    float:right;
+    
+
+    clear: both;
+}
+#collaborate:hover {
+    cursor: pointer;
+    background-color:rgb(96, 96, 255);
+}

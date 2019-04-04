@@ -19,9 +19,6 @@ class DashboardHeader extends React.Component {
 
   }
   
-  onChange(newValue) {
-    console.log('change',newValue);
-  }
   componentDidMount(){
       fetch('/api/gettext')
         .then(res => res.json())

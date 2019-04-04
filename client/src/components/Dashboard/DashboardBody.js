@@ -15,6 +15,12 @@ require('isomorphic-fetch');
 const  socket = openSocket('http://localhost:8000');
 class DashboardBody extends Component {
   class = {};
+  onChange(newValue) {
+    console.log('change',newValue);
+  }
+  componentDidMount () {
+  document.getElementById("collaborate").style.display = "block";
+  }
 
   render() {
 	const retrievedEmail = localStorage.getItem('email')
